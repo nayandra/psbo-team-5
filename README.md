@@ -23,3 +23,19 @@ Sistem telah mampu melakukan CRUD sederhana untuk melakukan simulasi peminjaman 
 
 ### Manfaat Sistem
 Sistem dapat digunakan oleh perpustakaan untuk mempermudah peminjaman buku. Dengan menggunakan sistem ini, peminjaman buku pada perpustakaan menjadi semakin terstruktur dan dapat tercatat dengan rapi. Sehingga, tidak perlu lagi mencatat peminjaman buku secara konservatif.
+
+## Analisis Berorientasi Objek
+
+### Identifikasi Aktor
+| No | Aktor | Deskripsi |
+|----|-----|------|
+| 1 | Pustakawan | Aktor yang bertanggung jawab untuk menambahkan buku, menambahkan buku, menambah user, dan menghapus user |
+| 2 | Antarmuka | Aktor yang berperan menampilkan objek antarmuka yang ada di dalam sistem kepada pustakawan |
+
+### Identifikasi User Stories
+| No | Aktor | User Story | Acceptance Criteria |
+|----|-----|------|-------|
+| 1 | Pustakawan | Sebagai seorang pustakawan, saya ingin menambahkan buku ke dalam list buku | Buku berhasil ditambahkan ke dalam list buku |
+| 2 | Pustakawan | Sebagai seorang pustakawan, saya ingin menghapus buku yang ada dalam list buku | Buku berhasil dihapus dari list buku |
+| 3 | Pustakawan | Sebagai seorang pustakawan, saya ingin menambahkan user yang ingin meminjam buku | User berhasil ditambahkan |
+| 4 | Pustakawan | Sebagai seorang pustakawan, saya ingin menghapus user yang telah mengembalikan buku | User berhasil dihapus |
